@@ -9,7 +9,7 @@ Install the module:
 
 Parsing SVN Logs to JSON
 ----------------------------
-
+```javascript
 var LogParser = require('svn-simple-log-parser');
 
 new LogParser({
@@ -18,3 +18,4 @@ new LogParser({
         console.log(data);
     }
 });
+```
