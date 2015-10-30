@@ -10,7 +10,7 @@ npm install svn-simple-log-parser --save
 ```
 
 Parsing SVN Logs to JSON
-----------------------------
+---------------------
 ```javascript
 var LogParser = require('svn-simple-log-parser');
 
