@@ -1,4 +1,6 @@
-# svn-simple-log-parser
+svn-simple-log-parser [![NPM version][npm-image]][npm-url]
+==================================================
+
 Get a clean json object from a (verbose) svn log stream.
 
 Install as dependency
@@ -24,3 +26,6 @@ alfrescoParser.parse(function(data){
     console.log(data);
 });
 ```
+
+[npm-image]: https://badge.fury.io/js/tinyscrollbar.png
+[npm-url]: http://badge.fury.io/js/svn-simple-log-parser
