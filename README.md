@@ -14,10 +14,11 @@ Parsing SVN Logs to JSON
 ```javascript
 var LogParser = require('svn-simple-log-parser');
 
-new LogParser({
-    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD',
-    onParsed: function(data) {
-        console.log(data);
-    }
+var alfrescoParser = new LogParser({
+    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
+});
+
+alfrescoParser.parse(function(data){
+    console.log(data);
 });
 ```
