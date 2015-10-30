@@ -1,12 +1,11 @@
 var LogParser = require('./lib/svn-simple-log-parser');
 
 var alfrescoParser = new LogParser({
-    repoUrl: 'http://svn.essent.nl/repos/frontEndDev/'
+    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
 });
 
 alfrescoParser
     .parse({
-        path: 'widgets/meterReadingCollection',
         limit: 5
     })
     .then( function (data) {
