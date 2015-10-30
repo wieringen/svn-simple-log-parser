@@ -1,12 +1,13 @@
 var LogParser = require('./lib/svn-simple-log-parser');
 
-var alfrescoParser = new LogParser({
+var alfrescoSVN = new LogParser({
     repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
 });
 
-alfrescoParser
+alfrescoSVN
     .parse({
-        limit: 5
+        limit: 5,
+        verbose: true
     })
     .then( function (data) {
         console.log(data);
