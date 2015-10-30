@@ -16,6 +16,8 @@ var LogParser = require('svn-simple-log-parser');
 
 var alfrescoParser = new LogParser({
     repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
+    verbose: true,
+    numberOfRevisions: 30
 });
 
 alfrescoParser.parse(function(data){
