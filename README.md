@@ -27,5 +27,5 @@ alfrescoParser.parse(function(data){
 });
 ```
 
-[npm-image]: https://badge.fury.io/js/tinyscrollbar.png
+[npm-image]: https://badge.fury.io/js/svn-simple-log-parser.png
 [npm-url]: http://badge.fury.io/js/svn-simple-log-parser
