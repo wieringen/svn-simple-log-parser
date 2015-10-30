@@ -17,7 +17,7 @@ Parsing SVN Logs to JSON
 var LogParser = require('svn-simple-log-parser');
 
 var alfrescoParser = new LogParser({
-    repoUrl: 'http://svn.essent.nl/repos/frontEndDev/'
+    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
 });
 
 alfrescoParser
