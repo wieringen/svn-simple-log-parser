@@ -1,8 +1,19 @@
 {
   "name": "svn-simple-log-parser",
-  "description": "",
   "version": "0.5.0",
+  "description": "Get a clean json object from a (verbose) svn log stream.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wieringen/svn-simple-log-parser.git"
+  },
   "main": "lib/svn-simple-log-parser.js",
+  "author": {
+    "name": "Maarten Baijs",
+    "email": "wieringen@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/wieringen/svn-simple-log-parser/issues"
+  },
   "devDependencies": {},
   "dependencies": {
     "underscore": "^1.8.3"
