@@ -1,6 +1,6 @@
 {
   "name": "svn-simple-log-parser",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "description": "Get a clean json object from a (verbose) svn log stream.",
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "bluebird": "^3.0.2",
     "underscore": "^1.8.3"
   }
 }

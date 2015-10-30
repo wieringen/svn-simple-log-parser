@@ -17,14 +17,24 @@ Parsing SVN Logs to JSON
 var LogParser = require('svn-simple-log-parser');
 
 var alfrescoParser = new LogParser({
-    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD'
-    verbose: true,
-    numberOfRevisions: 30
+    repoUrl: 'http://svn.essent.nl/repos/frontEndDev/'
 });
 
-alfrescoParser.parse(function(data){
-    console.log(data);
-});
+alfrescoParser
+    .parse({
+        limit: 5,
+        path: 'some/path',
+        revision: '99999',
+        from: '9999',
+        to: '9999'
+    })
+    .then( function (data) {
+        console.log(data);
+    })
+    .catch( function (err) {
+        console.log(err);
+    })
+;
 ```
 
 [npm-image]: https://badge.fury.io/js/svn-simple-log-parser.png
