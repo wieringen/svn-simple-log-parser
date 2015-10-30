@@ -5,7 +5,9 @@ Install as dependency
 ---------------------
 
 Install the module:
+```bash
     npm install svn-simple-log-parser --save
+```
 
 Parsing SVN Logs to JSON
 ----------------------------
