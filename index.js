@@ -1,8 +1,8 @@
-var LogParser = require('./svn-simple-log-parser');
+var LogParser = require('./lib/svn-simple-log-parser');
 
 new LogParser({
-    repoUrl: 'http://svn.essent.nl/repos/frontEndDev',
+    repoUrl: 'https://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD',
     onParsed: function(data) {
-        console.log(data);
+        console.log(JSON.stringify(data, null, 4));
     }
 });

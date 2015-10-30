@@ -2,10 +2,9 @@
   "name": "svn-simple-log-parser",
   "description": "",
   "version": "0.5.0",
-  "main": "index.js",
+  "main": "lib/svn-simple-log-parser.js",
   "devDependencies": {},
   "dependencies": {
-    "svn-log-parser": "^0.2.0",
     "underscore": "^1.8.3"
   }
 }
