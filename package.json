@@ -1,6 +1,6 @@
 {
   "name": "svn-simple-log-parser",
-  "version": "0.6.3",
+  "version": "0.6.4",
   "description": "Get a clean json object from a (verbose) svn log stream.",
   "repository": {
     "type": "git",
